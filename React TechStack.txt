@@ -1,0 +1,129 @@
+## React cross-platform Solution (web, android, ios, windows, desktop)
+
+	Tech Stack:
+		*Using Redux as Container
+		*Using ReSelect as Redu Simplify and performer
+		// Using React-compose-state for state to components (ou Recompose - https://github.com/acdlite/recompose)
+		// Using React-Functional for functional programming - https://github.com/davidmarkclements/react-functional
+		// Using Flowtype as Model manager
+		*Using Redux-logic as Middleware of Redux
+		*Using React-Router-Navigation as Web-routers - https://medium.com/react-native-training/react-native-navigator-navigating-like-a-pro-in-react-native-3cb1b6dc1e30
+		//Using tcomb as action creators
+		//Using ImmutableJS as itegrity data
+		//Using normalizr as data normalizer
+		*Using React-Intl as Internacionalization
+		*Using StyledElements as Styles VER: https://github.com/styled-components/styled-components/blob/master/docs/tips-and-tricks.md)
+		*Using Glamorous and Glamorous-native as Styles - VER: https://blog.kentcdodds.com/introducing-glamorous-fb3c9f4ed20e
+		*Using qix/color as Color Manager :https://github.com/Qix-/color (duvidas de como usar, procurar pelos styledComponents theming, theme, que usam)
+		//Using EsLint as lint
+		Using Yeoman as Generator
+
+		Using React-Hot-Reloading 
+		// Using (documentationjs with Docstrap or JsDoc3 with Docstrap) and Docco for documentation
+		// Using Jest and Enzyme as Tests	
+
+	Premisses:
+		Flux Data Implementation
+		Components Split for Container and Presentation Implementation
+		Shared business logic and differente Presentation Render
+		Use Subproject to Utils, Services and Components separation
+		Same main App, with option to show or hide component depends of platform
+		Yeoman Generator for components, screens, etc
+
+----------------------------
+
+## React cross-platform Solution Manager Tools
+	Like:
+		React CDK, Storybook, NativeBase Sketch and Atellier to create Components and Libraries. Edit code and view like Sizzy
+		Shoutem Builder to management of app design and navigation, with marketplace of components, screens, templates, etc. Edit code and view like Sizzy
+		Expo XDE to management of builds for all platforms.
+		Tool like Appetize.io to run native Apps on web simulators (https://appetize.io/demo?device=ipadair2&scale=50&orientation=portrait&osVersion=10.3)
+
+----------------------------
+
+
+## Boilerplate of React cross-platform Solution
+
+	Tech Stack:
+		Using Node as Server
+		Using Loopback as Server Framework
+		Using Mongoose as DB Framework
+		Using Redux as Container
+		Using Redux-logic as Middleware of Redux
+		Using React-Router, React-Router-Redux, React-Native-Router-Redux and React-Native-Router as Web-routers
+		Using NativeBase as Generic Components
+		Using Styled-Components and Styled-Props as components inline-styles and Styled-Theme as theme Manager 
+		Using Styled-components-spacing as component Spacing
+		Using qix/color as Color Manager
+		Using Relay or Falcon as Ajax requests
+		Using ReSelect as Redu Simplify and performer
+		Using flex-stores as Model and Collections (complementary to redux)
+		Using ImmutableJS as itegrity data
+		Using EventEmitter and React-Broadcast as a broadcast
+		Using React as Web app
+		Using React-Native as Android, Iphone and Windows app
+		Using Expo (Expo) as native abstraction
+		Using Electron as Desktop app
+		Using Sanitize.css to estabilize Styles
+		Using offline-first Option
+		Using add-to-home Option
+		Using React-Hot-Reloading 
+		Using Flow as Type Checker
+		Using graphql as query for api
+		Using (documentationjs with Docstrap or JsDoc3 with Docstrap) and Docco for documentation
+		Using Jest and Enzyme as Tests	
+		Using EsLint as lint
+		Using React-Intl as Internacionalization
+		
+	External Libs (Try a require/import version):
+		Animate.css
+		FormValidation.js
+		Jasny-Bootstrap.js
+		Toastr.js
+		Bootstrap.js
+		
+	Premisses:
+		Flux Data Implementation
+		Components Split for Container and Presentation Implementation
+		Shared business logic and differente Presentation Render
+		Use Subproject to Utils, Services and Components separation
+
+	Tools:
+		React CDK, Storybook and Atellier to Components Library
+		pretty diff to React Beautify
+		sketch-template as mobile native design
+
+	For More, See:
+		https://github.com/facebook/react/wiki/Complementary-Tools
+		https://github.com/enaqx/awesome-react
+		https://github.com/STRML/awesome-react
+		https://github.com/mohebifar/awesome-react
+		https://github.com/brillout/awesome-react-components
+		https://github.com/xgrommx/awesome-redux
+		https://github.com/brillout/awesome-redux
+		https://github.com/jondot/awesome-react-native
+		https://github.com/vitalets/awesome-react-native
+
+	Organization Approach:
+		https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1
+		
+	Examples:
+		Todo app 
+		Trade Market App(reactforbegginers cath of the day)
+		Shopping Cart App
+		Tinder like App with profile edit
+		Instagram like App
+		Spotify like app
+		starter like https://github.com/sahat/hackathon-starter
+
+	// project todo as FRAMEWORK with sketch design and encapsulate plugins
+	// do a tool like nativebase skech app, shoutem builder and  sizzy for design 
+	//dev a tool to create component (like attelier and storybook) and view on a tool like sizzy
+	//dev a tool to create app (like attelier and storybook) and view on a tool like sizzy
+
+	3 tools:
+	//1 - component wrapper creator with component call code sample and each platform code renderer(can call other component or external component like nativebase or shoutem)
+	//2 - app designer like shoutem builder and nativebase sketch app
+	//3 - build and exec xde like expo xde
+
+	https://blog.expo.io/using-react-native-ui-toolkits-with-exponent-3993434caf66

@@ -1,0 +1,125 @@
+// ACABAR COM STATES E CLASS
+// USAR HOCs(HOFs) e Stateless Functional React components
+// https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750
+// https://github.com/dai-shi/react-compose-state
+
+// DEIXAR TUDO Functional
+// https://github.com/davidmarkclements/react-functional
+// https://github.com/aickin/functional-react
+// https://github.com/Wildhoney/Keo
+
+#PRO FDS:
+
+// ARRUMAR BOTAO FETCH (esse tem que limpar a lista anterior antes de setar); 
+// APRIMORAR INFINIT SCROLL, SEM SUMIR O PRIMEIRO ITEM (Aparecer e esconder searching sem ocultar items);
+// FAZER VERSAO COM LISTVIEW
+// SEPARAR ACTIONS QUE DISPARAM LOGIC DAS QUE DISPARAM REDUCERS
+// RESOLVER PROBLEMA FONTSIZE STYLED COMPONENTS
+// DAR UMA OLHADA E IMPLEMENTAR ALGO DO TIPO, MAS DIFERENTE: https://github.com/johnnyji/create-reducer-redux
+
+
+LOGIN:
+https://medium.com/@alexmngn/the-essential-boilerplate-to-authenticate-users-on-your-react-native-app-f7a8e0e04a42
+
+ORGANIZACAO:
+https://jaysoo.ca/2016/02/28/organizing-redux-application/#rule-1-organize-by-feature
+
+FLOW TYPES
+https://jaysoo.ca/2016/02/28/applying-code-organization-rules-to-concrete-redux-code/
+
+NORMALIZR
+https://github.com/paularmstrong/normalizr
+
+TCOMB
+https://www.codementor.io/yrashk/organizing-your-react-redux-application-du107l4ku
+
+UNIVERSAL
+https://scotch.io/tutorials/react-on-the-server-for-beginners-build-a-universal-react-and-node-app
+
+STUDY FLUX
+https://github.com/voronianski/flux-comparison
+
+
+
+FAZER ACTION E REDUCER GENERICO
+Action generica da  App que quando chamada dispara em todos os reducers que a ouvem
+Reducer generico da App que oue actions genericas
+
+
+#TODO
+    Include splash screens
+    Include TODO Example
+#CONFIG
+    Config and Use Delicious Monokai
+    Criar Yeoman Generator like ignite
+    Install eslint 
+        http://eslint.org/docs/developer-guide/working-with-plugins
+        Lista
+            https://github.com/dustinspecker/awesome-eslint
+        Pack
+            https://github.com/sindresorhus/eslint-plugin-unicorn
+            https://github.com/supermind/eslint-config-supermind
+        Plugins
+            https://github.com/babel/eslint-plugin-babel
+            https://github.com/yannickcr/eslint-plugin-react#recommended
+            https://github.com/Intellicode/eslint-plugin-react-native
+            https://github.com/gajus/eslint-plugin-flowtype
+            https://github.com/amilajack/eslint-plugin-flowtype-errors
+            https://github.com/codemix/flow-runtime
+            https://github.com/azeemba/eslint-plugin-json
+            https://github.com/benmosher/eslint-plugin-import
+            https://github.com/jfmengels/eslint-plugin-fp
+            https://github.com/jhusain/eslint-plugin-immutable
+            https://github.com/buildo/eslint-plugin-no-loops
+
+        https://github.com/sheerun/prettier-standard
+
+    Change graddle build(https://zeroturnaround.com/rebellabs/making-gradle-builds-faster/);
+
+#IMPLEMENT
+    Customize Console Logs
+    Support to generate windows apps
+    Include electron-packager 
+    Generate builds with better-scripts
+
+#EXAMPLES
+    Made examples with styled-components, nativebase, shoutem ui, react-native-material-ui, react-native-elements   
+
+#TOOLS
+    Create a way to launch on web simulator, using react-native-web and mocking native functions(GPS, Photos, Camera, etc.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# react native expo versions
+github:exponent/react-native#sdk-16
+https://github.com/expo/react-native/archive/sdk-16.0.0.tar.gz
+0.43.2
+
+
+#graphql (view f8 2016 app)
+
+
+# FINAL EXPECTED
+    design each screen in a tool like sketch of nativease
+    framework create a separate design file to each platform appointing to a a unique file with configs of components behavior
+    get rich!
+
+http://jstherightway.org/pt-br/#getting-started
+
+se funcionar, organizar os package.json assim: https://docs.npmjs.com/files/package.json
+incluindo diretorios, files, dependencys, etc.
+see https://registry.npmjs.org/npm/latest
+see http://stackoverflow.com/questions/14381898/local-dependency-in-package-json
+see http://stackoverflow.com/questions/8367031/how-do-i-install-package-json-dependencies-in-the-current-directory-using-npm

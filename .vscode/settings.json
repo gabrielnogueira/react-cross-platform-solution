@@ -1,0 +1,9 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "vsicons.presets.angular": false,
+  "editor.renderWhitespace": "all",
+  "editor.snippetSuggestions": "top",
+  "editor.fontSize": 13.5,
+  "editor.minimap.enabled": true,
+  "editor.fontWeight": "100"
+}
